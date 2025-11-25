@@ -11,14 +11,11 @@ body{
     background-color: #606470;
     border: 3px solid #93DEFF;
     margin-top: 20px;
-    width: 100%;
-    min-height: 640px;
+    width: auto;
     height:auto;
     text-align: center;
-    float: left;
 }
 .title
 {
     text-align: center;
-    float: left;
 }
