@@ -1,21 +1,38 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #323643;
-    color: #F7F7F7;
+    background-color: white;
+    color: black;
     font-size: 150%;
+}
+.center
+{
+    text-align: center;
+    align-self: center;
+}
+.text33
+{
+    width: 32.48%;
+    text-align: left;
+    float: left;
 }
 
 .box
 {
-    background-color: #606470;
-    border: 3px solid #93DEFF;
+    background-color: #d6dfe3;
     margin-top: 20px;
-    width: auto;
+    border: 3px solid;
+    padding: 5px;
     height:auto;
     text-align: center;
 }
 .title
 {
     text-align: center;
+    font-size: 200%;
+}
+.prompt
+{
+    font-size: 120%;
+    text-align: left;
 }
