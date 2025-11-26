@@ -5,34 +5,60 @@ body{
     color: black;
     font-size: 150%;
 }
-.center
-{
+
+header{
+    width: 100%;
+    height: auto;
+    background-color: lightgray;
     text-align: center;
-    align-self: center;
+    font-size: 100%;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
-.text33
-{
-    width: 32.48%;
-    text-align: left;
+article{
+    width: 75%;
+    min-height: 400px;
+    background-color: white;
+    box-sizing: border-box;
+    margin-top:20px;
+    margin-bottom: 20px;
     float: left;
 }
+aside
+{
+    margin-top:20px;
+    width: 25%;
+    min-height: 400px;
+    background-color: lightgray;
+    float: right;
+    box-sizing: border-box;
+}
 
-.box
-{
-    background-color: #d6dfe3;
+footer{
+    width: 100%;
+    height: auto;
+    background-color: lightgray;
+    text-align: center;
+    font-size: 80%;
+    font-weight: bold;
+    clear: both;
     margin-top: 20px;
-    border: 3px solid;
-    padding: 5px;
-    height:auto;
-    text-align: center;
 }
-.title
-{
-    text-align: center;
-    font-size: 200%;
+button{
+    background-color: lightblue;
+    border: none;
+    padding: 10px;
+    font-size: 100%;
+    cursor: pointer;
+    border: 5px solid blue;
+    margin: 10px;
 }
-.prompt
-{
-    font-size: 120%;
-    text-align: left;
+button:hover{
+    background-color: blue;
+    color: white;
+}
+.box{
+    width: 100%;
+    height: auto;
+    background-color: lightblue;
 }
