@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    padding: 0;
+    padding: 5;
     background-color: white;
     color: black;
     font-size: 150%;
@@ -16,10 +16,11 @@ header{
     margin-bottom: 20px;
 }
 article{
-    width: 75%;
+    width: 74%;
     min-height: 400px;
     background-color: white;
     box-sizing: border-box;
+    text-align: center;
     margin-top:20px;
     margin-bottom: 20px;
     float: left;
@@ -27,11 +28,13 @@ article{
 aside
 {
     margin-top:20px;
-    width: 25%;
+    text-align: center;
+    width: 24%;
     min-height: 400px;
     background-color: lightgray;
     float: right;
     box-sizing: border-box;
+    padding: 5px;
 }
 
 footer{
