@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial</title>
+    <link rel="stylesheet" href="../css/news.css">
+</head>
+<body>
+    <footer>
+        <div class="title">
+            <h1>
+                HTML Basis – Uitleg in Tekstvorm
+            </h1>
+        </div>
+    </footer>
+
+    <main>
+        <div class="text">
+            <p>
+                HTML staat voor HyperText Markup Language en wordt gebruikt om de structuur van webpagina’s te maken. Het werkt met zogenaamde “tags”. Een tag is een stukje tekst tussen < en >, bijvoorbeeld < p > voor een paragraaf. Bijna elke tag heeft ook een sluittag, zoals  < p >, die aangeeft waar het element stopt.
+            </p>
+        </div>
+
+        <div class="text">
+            <p> 
+                Elke HTML-pagina begint met dezelfde basis. Bovenaan staat < !DOCTYPE html >, waarmee je de browser laat weten dat het om HTML5 gaat. <p>
+
+                </p>De hele pagina staat binnen < html >...< /html >. Het < head >-gedeelte bevat informatie die de gebruiker niet ziet, zoals de titel van de pagina of instellingen zoals de tekencodering. In het < body >-gedeelte staat juist alles wat wél zichtbaar wordt, zoals tekst, koppen, afbeeldingen en links.
+            </p>
+            <p>
+                Als je tekst op een pagina wilt zetten, gebruik je paragrafen met < p > en koppen met < h1 > t/m < h6 >. < h1 > is de grootste en belangrijkste kop, < h6 > de kleinste. <p>
+
+                </p>Je kunt tekst vet maken met < b > of < strong >, en cursief met < i > of < em >.
+                Links maak je met de < a >-tag. Die werkt met een href-attribuut dat aangeeft naar welke website je verwijst. Afbeeldingen voeg je toe met < img >. Die tag heeft geen sluittag nodig. Je geeft een src op voor het bestand en een alt-tekst die verschijnt als de afbeelding niet kan geladen worden.
+            </p>
+            <p>
+                Voor opsommingen gebruik je lijsten. Een ongeordende lijst (met bolletjes) wordt gemaakt met < ul >, en een geordende lijst (met nummers) met < ol >. Elk lijstpunt maak je met < li >.
+                Daarnaast bestaan er nog de elementen < div > en < span >. Een < div > is een blok-element dat vaak gebruikt wordt om grote stukken van een pagina te groeperen, terwijl < span > juist een klein stukje tekst markeert binnen een regel. Deze worden vooral belangrijk wanneer je later CSS gaat gebruiken om de pagina op te maken.
+            </p>
+            <p>
+                Tot slot kun je commentaar toevoegen in HTML met < !-- ... -- >. Dit wordt niet getoond op de pagina, maar is handig voor aantekeningen.
+            </p>
+            <p>
+                Een heel eenvoudige HTML-pagina bevat dus een doctype, een < html >-deel, een < head > met de titel, en een < body > met zichtbare inhoud zoals tekst, links, lijsten en afbeeldingen. Wanneer je deze elementen begrijpt, kun je al je eerste eenvoudige webpagina’s maken.
+            </p>
+        </div>
+
+        <br>
+        <div class="title">
+            <p>
+                Prompts
+            </p>
+        </div>
+
+        <div>
+            <ul>
+                <p class="promptchats">
+                    Ik
+                </p>
+            </ul>
+            <li>
+                maak een tutorial over de basis van HTML
+            </li>
+            <br>
+
+            <p class="promptchats">
+                Chat GPT
+            </p>
+            <li>
+                Hier is een duidelijke, beginnersvriendelijke **HTML-tutorial** in het Nederlands.
+                Kort, overzichtelijk en precies wat je nodig hebt om te starten! <li>
+
+                </li>
+
+---
+
+# 🧱 **HTML Basis Tutorial**
+
+*HyperText Markup Language — de bouwstenen van elke webpagina.*
+
+## 📌 1. Wat is HTML?
+
+HTML is een **markup-taal** die gebruikt wordt om de **structuur** van een webpagina te maken.
+Je gebruikt **tags** (bijv. `< p >`, `< h1 >`, `< img >`) om aan te geven wat elk onderdeel is.
+
+---
+<li>
+
+</li>
+
+# 📁 2. De basisstructuur van elke HTML-pagina
+
+Elke HTML-pagina begint ongeveer zo:
+
+```html
+< !DOCTYPE html >
+< html >
+< head >
+    < meta charset="UTF-8" >
+    title>Mijn Eerste Pagina</ title >
+</ head >
+< body >
+    < h1 >Hallo wereld!< /h1 >
+</ body >
+</ html >
+```
+<li>
+
+</li>
+### Uitleg:
+
+* `< !DOCTYPE html >` → vertelt de browser dat het HTML5 is
+* `< html >` → de hele pagina
+* `< head >` → info *over* de pagina (titel, metadata)
+* `< body >` → alles wat je op het scherm ziet
+
+---
+<li>
+
+</li>
+# ✏️ 3. Tekst en koppen
+
+### Koppen (titels):
+
+```html
+< h1 >Dit is een hoofdtitel< /h1 >
+< h2>Dit is een subtitel</h2 >
+```
+<li>
+
+</li>
+### Paragraaf (tekst):
+
+```html
+< p >Dit is een paragraaf met tekst.< /p >
+```
+<li>
+
+</li>
+### Vet en cursief:
+
+```html
+< b >Vet</ b >
+< i >Cursief</ i >
+< strong >Belangrijk (vet)</ strong >
+< em >Nadruk (cursief)</ em >
+```
+
+---
+<li>
+
+</li>
+
+# 🔗 4. Links (verwijzingen)
+
+```html
+< a href="https://example.com">Klik hier</ a >
+```
+<li>
+
+</li>
+---
+
+# 🖼️ 5. Afbeeldingen
+
+```html
+< img src="plaatje.jpg" alt="Beschrijving van het plaatje" >
+```
+
+* `src` → locatie van het bestand
+* `alt` → tekst als het plaatje niet kan laden (belangrijk voor toegankelijkheid)
+
+---
+<li>
+
+</li>
+
+# 📋 6. Lijsten
+
+### Ongeordende lijst (bolletjes)
+
+```html
+< ul >
+    < li >Item 1< /li >
+    < li >Item 2< /li >
+</ ul >
+```
+<li>
+
+</li>
+### Geordende lijst (nummers)
+
+```html
+< ol >
+    < li >Stap 1</ li >
+    < li >Stap 2</ li >
+</ ol >
+```
+
+---
+<li>
+
+</li>
+
+# 🎨 7. Divs & Spans (voor layout)
+
+### `div` → blok
+
+```html
+< div >
+    Dit is een blok.
+</ div >
+```
+<li>
+
+</li>
+### `span` → inline element
+
+```html
+< span >Dit staat inline</ span >
+```
+
+Dit wordt vooral belangrijk als je met **CSS** gaat werken.
+
+<li>
+
+</li>
+---
+
+# 📦 8. Commentaar toevoegen
+
+```html
+< !-- Dit is een comment -- >
+```
+<li>
+
+</li>
+---
+
+# 🧪 9. Een compleet simpel voorbeeld
+
+```html
+< !DOCTYPE html >
+< html >
+< head >
+    < meta charset="UTF-8" >
+    < title >HTML Basis</ title >
+</ head >
+< body>
+    < h1 > Welkom op mijn website! </ h1 >
+
+    < p > Dit is mijn eerste HTML pagina.</ p >
+
+    < a href="https://google.com">Ga naar Google</ a >
+
+    < h2 > Mijn favoriete dingen </ h2 >
+    < ul >
+        < li > Games </ li >
+        < li > Koffie </ li >
+        < li > Programmeren </ li >
+    </ ul >
+
+    < img src="kat.jpg" alt="Een schattige kat" >
+</ body >
+</ html >
+```
+<li>
+    
+</li>
+---
+
+# ❓ Wil je meer?
+
+Ik kan ook tutorials maken over:
+
+✨ CSS
+✨ JavaScript
+✨ Forms (invoervelden)
+✨ Een complete website bouwen
+
+Laat maar weten!
+
+            </li>
+        </div>
+<br>
+
+<div>
+    <ul>
+        <p class="promptchats">
+            Ik
+        </p>
+        <li>
+            kan je het als een tekst doen
+        </li>
+    </ul>    
+</div>
+<br>
+
+<div>
+    <ul>
+        <p class="promptchats">
+            Chat GPT
+        </p>
+        <li>
+            Natuurlijk! Hier is de **HTML-basistutorial als gewone doorlopende tekst** zonder lijstjes of codeblokkenstijl.
+
+---
+
+# **HTML Basis – Uitleg in Tekstvorm**
+
+HTML staat voor *HyperText Markup Language* en wordt gebruikt om de structuur van webpagina’s te maken. Het werkt met zogenaamde “tags”. Een tag is een stukje tekst tussen `<` en `>`, bijvoorbeeld `< p>` voor een paragraaf. Bijna elke tag heeft ook een sluittag, zoals `</ p>`, die aangeeft waar het element stopt.
+
+Elke HTML-pagina begint met dezelfde basis. Bovenaan staat `< !DOCTYPE html >`, waarmee je de browser laat weten dat het om HTML5 gaat. De hele pagina staat binnen `< html>...</ html>`. Het `< head>`-gedeelte bevat informatie die de gebruiker niet ziet, zoals de titel van de pagina of instellingen zoals de tekencodering. In het `< body>`-gedeelte staat juist alles wat wél zichtbaar wordt, zoals tekst, koppen, afbeeldingen en links.
+
+Als je tekst op een pagina wilt zetten, gebruik je paragrafen met `< p>` en koppen met `< h1>` t/m `< h6>`. `< h1>` is de grootste en belangrijkste kop, `< h6>` de kleinste. Je kunt tekst vet maken met `< b>` of `< strong>`, en cursief met `< i>` of `< em>`.
+
+Links maak je met de `< a>`-tag. Die werkt met een `href`-attribuut dat aangeeft naar welke website je verwijst. Afbeeldingen voeg je toe met `< img>`. Die tag heeft geen sluittag nodig. Je geeft een `src` op voor het bestand en een `alt`-tekst die verschijnt als de afbeelding niet kan geladen worden.
+
+Voor opsommingen gebruik je lijsten. Een ongeordende lijst (met bolletjes) wordt gemaakt met `< ul>`, en een geordende lijst (met nummers) met `< ol>`. Elk lijstpunt maak je met `< li>`.
+
+Daarnaast bestaan er nog de elementen `< div>` en `< span>`. Een `< div>` is een blok-element dat vaak gebruikt wordt om grote stukken van een pagina te groeperen, terwijl `< span>` juist een klein stukje tekst markeert binnen een regel. Deze worden vooral belangrijk wanneer je later CSS gaat gebruiken om de pagina op te maken.
+
+Tot slot kun je commentaar toevoegen in HTML met `< !-- ... -->`. Dit wordt niet getoond op de pagina, maar is handig voor aantekeningen.
+
+Een heel eenvoudige HTML-pagina bevat dus een doctype, een `< html>`-deel, een `< head>` met de titel, en een `< body>` met zichtbare inhoud zoals tekst, links, lijsten en afbeeldingen. Wanneer je deze elementen begrijpt, kun je al je eerste eenvoudige webpagina’s maken.
+
+---
+
+Wil je dat ik ook een **CSS** of **JavaScript** uitleg maak in dezezelfde tekststijl?
+
+        </li>
+    </ul>
+</div>
+        
+    </main>
+    
+</body>
+</html>

@@ -50,3 +50,12 @@
   align-items: center;
   justify-content: center;
 }
+
+
+h1 {
+    font-size: 15vw em;
+}
+
+p {
+    font-size: 10vw em;
+}
